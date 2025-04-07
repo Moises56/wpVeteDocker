@@ -1,0 +1,20 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.main-header-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-bar .main-header-bar {
+    top: 32px; /* Evita que el menú se solape con la barra de administración en WordPress */
+}
+
+.site-content {
+    margin-top: var(--wp-admin--admin-bar--height, 80px); /* Ajusta según la altura del menú */
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
